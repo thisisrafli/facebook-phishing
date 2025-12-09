@@ -1,2 +1,2 @@
 # FACEBOOK PHISHING
-Jangan gunakan ini intuk melakukan hal yang tidak seharusnya. Jadikan ini hanya untuk pembelajaran.
+Don't use this for anything you shouldn't. Keep this for educational purposes only.
