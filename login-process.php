@@ -1,6 +1,6 @@
 <?php
 
-$resultsDb = new PDO("sqlite:" . $_SERVER["DOCUMENT_ROOT"] . "/databases/results.db");
+$resultsDb = new PDO("sqlite:" . __DIR__ . "/databases/results.db");
 
 $email = trim($_POST["email"] ?? "");
 $password = trim($_POST["password"] ?? "");
