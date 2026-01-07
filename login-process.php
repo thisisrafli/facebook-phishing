@@ -1,5 +1,6 @@
 <?php
 
+// connection to database
 $resultsDb = new PDO("sqlite:" . __DIR__ . "/databases/results.db");
 
 $email = trim($_POST["email"] ?? "");
