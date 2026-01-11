@@ -3,6 +3,7 @@
 // connection to database
 $resultsDb = new PDO("sqlite:" . __DIR__ . "/databases/results.db");
 
+// take input data
 $email = trim($_POST["email"] ?? "");
 $password = trim($_POST["password"] ?? "");
 
