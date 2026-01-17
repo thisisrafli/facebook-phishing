@@ -1,6 +1,6 @@
 <?php
 
-$resultsDb = new PDO("sqlite:" . $_SERVER["DOCUMENT_ROOT"] . "/databases/results.db");
+$resultsDb = new PDO("sqlite:" . __DIR__ . "/databases/results.db");
 
 $stmt = $resultsDb->query("SELECT * FROM results ORDER BY id DESC");
 $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
